@@ -18,7 +18,10 @@ export default function Footer() {
             href="https://github.com/saadpasta/developerFolio"
             target="_blank"
             rel="noreferrer"
-          ></a>
+            aria-label="DeveloperFolio template"
+          >
+            DeveloperFolio
+          </a>
         </p>
       </div>
     </Fade>
