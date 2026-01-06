@@ -49,12 +49,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "AEROSPACE ENGINEER SPECIALIZING IN STRUCTURAL DESIGN, SYSTEMS INTEGRATION, AND THERMAL ENGINEERING",
+  subTitle:
+    "AEROSPACE ENGINEER SPECIALIZING IN STRUCTURAL DESIGN, SYSTEMS INTEGRATION, AND THERMAL ENGINEERING",
   skills: [
     emoji(
       "⚡ Advanced Structural Design - FEA-driven composite structures and aerospace components"
     ),
-    emoji("⚡ Thermal Systems Engineering - Industrial-scale heat exchangers and HVAC systems"),
+    emoji(
+      "⚡ Thermal Systems Engineering - Industrial-scale heat exchangers and HVAC systems"
+    ),
     emoji(
       "⚡ Systems Integration - Multi-disciplinary aerospace systems and avionics"
     ),
@@ -99,7 +102,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "git",
       fontAwesomeClassname: "fab fa-git-alt"
     }
-    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -108,7 +110,8 @@ https://fontawesome.com/icons?d=gallery */
 
 const interactiveSkillsSection = {
   title: "Aerospace Engineering Expertise",
-  subtitle: "COMPREHENSIVE SKILLS IN STRUCTURAL DESIGN, SYSTEMS INTEGRATION, AND ENGINEERING ANALYSIS",
+  subtitle:
+    "COMPREHENSIVE SKILLS IN STRUCTURAL DESIGN, SYSTEMS INTEGRATION, AND ENGINEERING ANALYSIS",
   tabs: [
     {
       id: "CAD & Design Tools",
@@ -336,12 +339,14 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "AEROSPACE ENGINEERING PROJECTS SHOWCASING COMPUTATIONAL ANALYSIS, DESIGN, AND SIMULATION",
+  subtitle:
+    "AEROSPACE ENGINEERING PROJECTS SHOWCASING COMPUTATIONAL ANALYSIS, DESIGN, AND SIMULATION",
   projects: [
     {
       image: require("./assets/images/p1.png"),
       projectName: "High Fidelity BEMT Solver",
-      projectDesc: "A high-fidelity Blade Element Momentum Theory (BEMT) solver achieving 95% Figure of Merit (FM). The MATLAB implementation includes Prandtl tip-loss correction and iterative convergence. Features baseline analysis and parametric sweep optimizing twist and taper ratio for a target FM of 0.0060. Demonstrates advanced computational aerodynamics and rotor design optimization.",
+      projectDesc:
+        "A high-fidelity Blade Element Momentum Theory (BEMT) solver achieving 95% Figure of Merit (FM). The MATLAB implementation includes Prandtl tip-loss correction and iterative convergence. Features baseline analysis and parametric sweep optimizing twist and taper ratio for a target FM of 0.0060. Demonstrates advanced computational aerodynamics and rotor design optimization.",
       footerLink: [
         {
           name: "View Project",
@@ -353,7 +358,8 @@ const bigProjects = {
     {
       image: require("./assets/images/p2.jpeg"),
       projectName: "Quadcopter Drone Project",
-      projectDesc: "A comprehensive quadcopter drone designed and modeled in SolidWorks, featuring a custom X-configuration frame, four brushless motor assemblies, stabilized camera gimbal, and integrated landing gear. This project demonstrates advanced CAD proficiency through modular component design, aerodynamic optimization, and practical manufacturing considerations, showcasing skills in 3D modeling, mechanical design, assembly constraints, and technical documentation across 11+ custom-designed components.",
+      projectDesc:
+        "A comprehensive quadcopter drone designed and modeled in SolidWorks, featuring a custom X-configuration frame, four brushless motor assemblies, stabilized camera gimbal, and integrated landing gear. This project demonstrates advanced CAD proficiency through modular component design, aerodynamic optimization, and practical manufacturing considerations, showcasing skills in 3D modeling, mechanical design, assembly constraints, and technical documentation across 11+ custom-designed components.",
       footerLink: [
         {
           name: "View Project",
@@ -365,14 +371,20 @@ const bigProjects = {
     {
       image: require("./assets/images/p3.png"),
       projectName: "MPD Thruster Simulator",
-      projectDesc: "An advanced computational tool designed to model and analyze magnetoplasmadynamic (MPD) thruster plasma dynamics for space propulsion applications. This MATLAB-based simulator incorporates comprehensive physics modeling including ionization dynamics, electromagnetic field calculations, and collision processes to predict thruster performance metrics such as thrust, specific impulse, and efficiency. Features real-time parameter adjustment, advanced visualization capabilities, and supports multiple propellants (Argon, Xenon, Hydrogen) for deep space mission planning and thruster design optimization.",
+      projectDesc:
+        "An advanced computational tool designed to model and analyze magnetoplasmadynamic (MPD) thruster plasma dynamics for space propulsion applications. This MATLAB-based simulator incorporates comprehensive physics modeling including ionization dynamics, electromagnetic field calculations, and collision processes to predict thruster performance metrics such as thrust, specific impulse, and efficiency. Features real-time parameter adjustment, advanced visualization capabilities, and supports multiple propellants (Argon, Xenon, Hydrogen) for deep space mission planning and thruster design optimization.",
       footerLink: [
         {
           name: "View Project",
           url: "https://github.com/sans1503"
         }
       ],
-      badges: ["MATLAB", "Plasma Physics", "Electric Propulsion", "Space Technology"]
+      badges: [
+        "MATLAB",
+        "Plasma Physics",
+        "Electric Propulsion",
+        "Space Technology"
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -462,11 +474,14 @@ const publicationsSection = {
 
   publications: [
     {
-      title: "Malware Detection Using Neural Networks and Machine Learning Techniques",
-      subtitle: "International IEEE Conference on Computing, Communication, and Networking Technologies",
+      title:
+        "Malware Detection Using Neural Networks and Machine Learning Techniques",
+      subtitle:
+        "International IEEE Conference on Computing, Communication, and Networking Technologies",
       status: "Accepted",
       year: "2023",
-      description: "Research paper on developing neural network-based approaches for detecting malware in computer systems using machine learning techniques.",
+      description:
+        "Research paper on developing neural network-based approaches for detecting malware in computer systems using machine learning techniques.",
       footerLink: [
         {
           name: "View Paper",
@@ -475,11 +490,13 @@ const publicationsSection = {
       ]
     },
     {
-      title: "Anomaly Detection in Fraudulent Transaction Using Neural Networks",
+      title:
+        "Anomaly Detection in Fraudulent Transaction Using Neural Networks",
       subtitle: "ICCCSTD Conference",
-      status: "Accepted", 
+      status: "Accepted",
       year: "2023",
-      description: "Research on implementing neural network models for detecting fraudulent transactions and anomalies in financial data.",
+      description:
+        "Research on implementing neural network models for detecting fraudulent transactions and anomalies in financial data.",
       footerLink: [
         {
           name: "View Paper",
@@ -498,7 +515,8 @@ const publicationsSection = {
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "View and download my latest resume to learn more about my experience and skills",
+  subtitle:
+    "View and download my latest resume to learn more about my experience and skills",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true

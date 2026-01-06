@@ -9,7 +9,7 @@ export default function Resume() {
   const {isDark} = useContext(StyleContext);
   const [pdfError, setPdfError] = useState(false);
   const cacheBust = Date.now();
-  
+
   if (!resumeSection.display) {
     return null;
   }
@@ -25,10 +25,12 @@ export default function Resume() {
           <h1 className={isDark ? "dark-mode resume-title" : "resume-title"}>
             {resumeSection.title}
           </h1>
-          <p className={isDark ? "dark-mode resume-subtitle" : "resume-subtitle"}>
+          <p
+            className={isDark ? "dark-mode resume-subtitle" : "resume-subtitle"}
+          >
             {resumeSection.subtitle}
           </p>
-          
+
           <div className="resume-content">
             <div className="resume-pdf-container">
               {!pdfError ? (
@@ -38,12 +40,15 @@ export default function Resume() {
                   height="800px"
                   title="Resume PDF Viewer"
                   className="resume-pdf"
-                  style={{border: 'none'}}
+                  style={{border: "none"}}
                   onError={handlePdfError}
                 />
               ) : (
                 <div className="pdf-error-fallback">
-                  <p>PDF viewer not supported. Please use the download button below.</p>
+                  <p>
+                    PDF viewer not supported. Please use the download button
+                    below.
+                  </p>
                   <a
                     href={`${process.env.PUBLIC_URL}/Resume_AUS_2.pdf?v=${cacheBust}`}
                     target="_blank"
@@ -55,7 +60,7 @@ export default function Resume() {
                 </div>
               )}
             </div>
-            
+
             <div className="resume-actions">
               <a
                 href={`${process.env.PUBLIC_URL}/Resume_AUS_2.pdf?v=${cacheBust}`}

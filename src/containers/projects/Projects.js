@@ -24,7 +24,12 @@ export default function Projects() {
           throw new Error(`HTTP ${result.status}: ${result.statusText}`);
         })
         .then(response => {
-          if (response && response.data && response.data.user && response.data.user.pinnedItems) {
+          if (
+            response &&
+            response.data &&
+            response.data.user &&
+            response.data.user.pinnedItems
+          ) {
             setrepoFunction(response.data.user.pinnedItems.edges);
           } else {
             console.warn("Invalid profile.json structure");

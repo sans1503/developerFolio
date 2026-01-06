@@ -41,7 +41,9 @@ export default function Greeting() {
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={`${process.env.PUBLIC_URL}/Resume_AUS_2.pdf?v=${Date.now()}`}
+                    href={`${
+                      process.env.PUBLIC_URL
+                    }/Resume_AUS_2.pdf?v=${Date.now()}`}
                     download="Sanskriti_Arvind_Resume.pdf"
                     className="download-link-button"
                   >
