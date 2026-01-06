@@ -42,6 +42,13 @@ export default function StartupProject() {
                       ? "dark-mode project-card project-card-dark"
                       : "project-card project-card-light"
                   }
+                  onClick={() => {
+                    const url = project.footerLink && project.footerLink[0] && project.footerLink[0].url;
+                    if (url) {
+                      openUrlInNewTab(url);
+                    }
+                  }}
+                  style={{cursor: "pointer"}}
                 >
                   {project.image ? (
                     <div className="project-image">
@@ -65,6 +72,13 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
+                    {project.badges ? (
+                      <div className="project-card-footer">
+                        {project.badges.map((badge, j) => (
+                          <span key={j} className={isDark ? "dark-mode project-tag" : "project-tag"}>{badge}</span>
+                        ))}
+                      </div>
+                    ) : null}
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {

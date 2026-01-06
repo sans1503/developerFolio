@@ -21,14 +21,19 @@ export default function Projects() {
           if (result.ok) {
             return result.json();
           }
-          throw result;
+          throw new Error(`HTTP ${result.status}: ${result.statusText}`);
         })
         .then(response => {
-          setrepoFunction(response.data.user.pinnedItems.edges);
+          if (response && response.data && response.data.user && response.data.user.pinnedItems) {
+            setrepoFunction(response.data.user.pinnedItems.edges);
+          } else {
+            console.warn("Invalid profile.json structure");
+            setrepoFunction("Error");
+          }
         })
         .catch(function (error) {
           console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
+            `Failed to load projects data: ${error.message}. Projects section will not be displayed.`
           );
           setrepoFunction("Error");
         });

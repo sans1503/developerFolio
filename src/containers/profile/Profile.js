@@ -21,13 +21,20 @@ export default function Profile() {
             if (result.ok) {
               return result.json();
             }
+            throw new Error(`HTTP ${result.status}: ${result.statusText}`);
           })
           .then(response => {
-            setProfileFunction(response.data.user);
+            if (response && response.data && response.data.user) {
+              setProfileFunction(response.data.user);
+            } else {
+              console.warn("Invalid profile.json structure for GitHub profile");
+              setProfileFunction("Error");
+              openSource.showGithubProfile = "false";
+            }
           })
           .catch(function (error) {
             console.error(
-              `${error} (because of this error GitHub contact section could not be displayed. Contact section has reverted to default)`
+              `Failed to load GitHub profile: ${error.message}. Contact section will use default layout.`
             );
             setProfileFunction("Error");
             openSource.showGithubProfile = "false";

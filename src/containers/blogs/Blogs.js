@@ -1,9 +1,15 @@
 import React, {useState, useEffect, useContext} from "react";
 import "./Blog.scss";
 import BlogCard from "../../components/blogCard/BlogCard";
-import {blogSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+
+// import {blogSection} from "../../portfolio"; // Removed from portfolio
+// Create fallback since blogSection was removed
+const blogSection = {
+  display: false,
+  displayMediumBlogs: "false"
+};
 export default function Blogs() {
   const {isDark} = useContext(StyleContext);
   const [mediumBlogs, setMediumBlogs] = useState([]);

@@ -1,8 +1,13 @@
 import React, {useContext} from "react";
 import "./Podcast.scss";
-import {podcastSection} from "../../portfolio";
 import {Fade} from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+
+// import {podcastSection} from "../../portfolio"; // Removed from portfolio
+// Create fallback since podcastSection was removed
+const podcastSection = {
+  display: false
+};
 
 export default function Podcast() {
   const {isDark} = useContext(StyleContext);

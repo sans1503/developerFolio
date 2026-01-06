@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Sanskriti Arvind",
+  title: "Hi, I'm Sanskriti Arvind",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Aerospace Engineer | Mechanical Designer | Systems Integration Specialist 🚀\n\nAerospace Engineering graduate from RMIT University specializing in structural analysis, composite materials design, thermal systems engineering, and avionics integration. Passionate about transforming complex engineering challenges into elegant, innovative solutions."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/sans1503",
+  linkedin: "https://www.linkedin.com/in/sanskritiarvind-aeroengg/",
+  gmail: "sanskritiaarvind15@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "AEROSPACE ENGINEER SPECIALIZING IN STRUCTURAL DESIGN, SYSTEMS INTEGRATION, AND THERMAL ENGINEERING",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Advanced Structural Design - FEA-driven composite structures and aerospace components"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Thermal Systems Engineering - Industrial-scale heat exchangers and HVAC systems"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Systems Integration - Multi-disciplinary aerospace systems and avionics"
+    ),
+    emoji(
+      "⚡ Computational Simulation - Physics-based modeling for propulsion and structural analysis"
     )
   ],
 
@@ -65,56 +68,172 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "matlab",
+      fontAwesomeClassname: "fab fa-matlab"
+    },
+    {
+      skillName: "solidworks",
+      fontAwesomeClassname: "fas fa-cube"
+    },
+    {
+      skillName: "ansys",
+      fontAwesomeClassname: "fas fa-cogs"
+    },
+    {
+      skillName: "autocad",
+      fontAwesomeClassname: "fas fa-drafting-compass"
+    },
+    {
+      skillName: "catia",
+      fontAwesomeClassname: "fas fa-cube"
+    },
+    {
+      skillName: "arduino",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    }
+    
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Interactive Skills Section
+
+const interactiveSkillsSection = {
+  title: "Aerospace Engineering Expertise",
+  subtitle: "COMPREHENSIVE SKILLS IN STRUCTURAL DESIGN, SYSTEMS INTEGRATION, AND ENGINEERING ANALYSIS",
+  tabs: [
+    {
+      id: "CAD & Design Tools",
+      sections: [
+        {
+          title: "CAD Software",
+          skills: [
+            "SolidWorks (Advanced)",
+            "CATIA V5",
+            "Siemens NX",
+            "AutoCAD",
+            "Creo"
+          ]
+        },
+        {
+          title: "Design Standards",
+          skills: [
+            "GD&T (Geometric Dimensioning & Tolerancing)",
+            "Technical Drawing",
+            "3D Modeling",
+            "Assembly Design",
+            "Engineering Documentation"
+          ]
+        }
+      ]
+    },
+    {
+      id: "Structural Analysis",
+      sections: [
+        {
+          title: "FEA & Simulation",
+          skills: [
+            "ANSYS (Mechanical, Structural)",
+            "FEA (Finite Element Analysis)",
+            "Stress Analysis",
+            "Structural Optimization",
+            "Modal Analysis"
+          ]
+        },
+        {
+          title: "Design & Analysis",
+          skills: [
+            "Fastener Design",
+            "Bearing Loads",
+            "Composites",
+            "Material Selection",
+            "Failure Analysis"
+          ]
+        }
+      ]
+    },
+    {
+      id: "Systems Integration",
+      sections: [
+        {
+          title: "Aerospace Systems",
+          skills: [
+            "Avionics Systems",
+            "Mechanical Systems",
+            "Electrical & Electronics Integration",
+            "Flight Testing",
+            "Systems Engineering"
+          ]
+        },
+        {
+          title: "Integration & Testing",
+          skills: [
+            "Multi-disciplinary Integration",
+            "System Validation",
+            "Test Planning",
+            "Troubleshooting",
+            "Documentation"
+          ]
+        }
+      ]
+    },
+    {
+      id: "Standards & Quality",
+      sections: [
+        {
+          title: "Quality Systems",
+          skills: [
+            "ISO 9001",
+            "AS9100D",
+            "Quality Assurance",
+            "Process Documentation",
+            "Continuous Improvement"
+          ]
+        },
+        {
+          title: "Engineering Standards",
+          skills: [
+            "ASME Y14.5",
+            "ASME B31.1",
+            "ASTM Standards",
+            "Aerospace Standards",
+            "Compliance & Certification"
+          ]
+        }
+      ]
+    },
+    {
+      id: "Programming & Tools",
+      sections: [
+        {
+          title: "Programming Languages",
+          skills: [
+            "Python (NumPy, Pandas)",
+            "MATLAB (Simulink)",
+            "Arduino",
+            "Scripting & Automation",
+            "Data Analysis"
+          ]
+        },
+        {
+          title: "Engineering Tools",
+          skills: [
+            "Computational Modeling",
+            "Simulation Software",
+            "Data Processing",
+            "Control Systems",
+            "Embedded Systems"
+          ]
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,23 +245,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "RMIT University",
+      logo: require("./assets/images/rmit.png"),
+      subHeader: "Bachelor of Engineering (Honours) in Aerospace Engineering",
+      duration: "2020 - 2025",
+      desc: "Melbourne, Australia",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Relevant Coursework: Aircraft Structures, Finite Element Analysis, Mechanical Design, Flight Mechanics, Composite Materials"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -153,19 +263,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Data Analysis & SQL", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Python & Machine Learning",
+      progressPercentage: "85%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Data Visualization (Power BI, Tableau)",
+      progressPercentage: "90%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Work experience section
@@ -174,29 +285,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Composite Structures Engineer",
+      company: "Engineers without Borders",
+      companylogo: require("./assets/images/ewb.png"),
+      date: "Feb 2025 - Nov 2025",
+      desc: "Melbourne",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Designed 6 composite panel layup configurations for marine deployment structures, conducting structural analysis and FEA validation in ANSYS to achieve 5.6 kN flexural strength per ASTM D790 while optimizing weight to 2.75 kg",
+        "Performed material selection analysis and stress calculations to reduce component costs by 71-81%, identifying alternative materials that maintained structural integrity and met design load requirements",
+        "Developed technical drawings and manufacturing specifications for composite structures, coordinating with fabrication teams to ensure dimensional accuracy and quality standards compliance"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Junior Mechanical Engineer",
+      company: "Invitrosense / EVAPCO",
+      companylogo: require("./assets/images/invitrosense.png"),
+      date: "Jan 2022 - Jan 2024",
+      desc: "India",
+      descBullets: [
+        "Executed design engineering for 43 thermal system projects using SolidWorks and AutoCAD, creating manufacturing drawings, assembly models, and technical specifications achieving ±5% capacity accuracy",
+        "Analyzed 120+ Bill of Materials for component compliance with ASME B31.1 standards, identifying cost-effective alternatives that maintained structural and thermal performance, contributing $20K+ in project savings",
+        "Conducted 15+ on-site facility assessments to gather field measurements, perform structural evaluations, and troubleshoot mechanical integration challenges, reducing installation delays by 35-40%",
+        "Collaborated with design, manufacturing, quality assurance, and field service teams to prepare 12 technical proposals and performance models supporting client decision-making and project approvals"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Avionics Engineering Intern",
+      company: "Vaayushastra Aerospace, IIT Madras",
+      companylogo: require("./assets/images/iit.png"),
+      date: "Jun 2023 - Aug 2023",
+      desc: "India",
+      descBullets: [
+        "Integrated 6 avionics subsystems (GPS, IMU, telemetry, flight controller, power distribution, datalink) for 12 kg tactical UAV, developing interface control documents and validating communication protocols",
+        "Executed 32 ground tests and 8 flight tests to validate avionics performance, analyzing sensor data in MATLAB to support calibration improvements achieving 95% accuracy targets (±0.5m GPS, ±2° IMU)",
+        "Resolved 18 subsystem interface issues through systematic root cause analysis, collaborating with engineering team to implement design modifications preventing recurring failures"
+      ]
     }
   ]
 };
@@ -206,37 +329,50 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "AEROSPACE ENGINEERING PROJECTS SHOWCASING COMPUTATIONAL ANALYSIS, DESIGN, AND SIMULATION",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/p1.png"),
+      projectName: "High Fidelity BEMT Solver",
+      projectDesc: "A high-fidelity Blade Element Momentum Theory (BEMT) solver achieving 95% Figure of Merit (FM). The MATLAB implementation includes Prandtl tip-loss correction and iterative convergence. Features baseline analysis and parametric sweep optimizing twist and taper ratio for a target FM of 0.0060. Demonstrates advanced computational aerodynamics and rotor design optimization.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Project",
+          url: "https://github.com/sans1503"
         }
-        //  you can add extra buttons here.
-      ]
+      ],
+      badges: ["MATLAB", "Aerodynamics", "BEMT", "Optimization"]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/p2.jpeg"),
+      projectName: "Quadcopter Drone Project",
+      projectDesc: "A comprehensive quadcopter drone designed and modeled in SolidWorks, featuring a custom X-configuration frame, four brushless motor assemblies, stabilized camera gimbal, and integrated landing gear. This project demonstrates advanced CAD proficiency through modular component design, aerodynamic optimization, and practical manufacturing considerations, showcasing skills in 3D modeling, mechanical design, assembly constraints, and technical documentation across 11+ custom-designed components.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Project",
+          url: "https://github.com/sans1503"
         }
-      ]
+      ],
+      badges: ["SolidWorks", "CAD", "Mechanical Design", "Drone Engineering"]
+    },
+    {
+      image: require("./assets/images/p3.png"),
+      projectName: "MPD Thruster Simulator",
+      projectDesc: "An advanced computational tool designed to model and analyze magnetoplasmadynamic (MPD) thruster plasma dynamics for space propulsion applications. This MATLAB-based simulator incorporates comprehensive physics modeling including ionization dynamics, electromagnetic field calculations, and collision processes to predict thruster performance metrics such as thrust, specific impulse, and efficiency. Features real-time parameter adjustment, advanced visualization capabilities, and supports multiple propellants (Argon, Xenon, Hydrogen) for deep space mission planning and thruster design optimization.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/sans1503"
+        }
+      ],
+      badges: ["MATLAB", "Plasma Physics", "Electric Propulsion", "Space Technology"]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -245,124 +381,124 @@ const bigProjects = {
 // Achievement Section
 // Include certificates, talks etc
 
+/* COMMENTED OUT - Achievements section hidden for now
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Professional certifications and research publications in data science and analytics !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS Certified ML Engineer",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "",
+      image: require("./assets/images/awsml.png"),
+      imageAlt: "AWS Certification",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Credential",
+          url: "https://github.com/sans1503"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Microsoft Power BI Certification",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "",
+      image: require("./assets/images/pbi.webp"),
+      imageAlt: "Power BI Certification",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Credential",
+          url: "https://github.com/sans1503"
         }
       ]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Malware Detection Using Neural Networks and Machine Learning Techniques",
+      subtitle:
+        "An IBM Funded Project where we developed a neural network-based approach for detecting malware in computer systems using machine learning techniques.",
+      image: require("./assets/images/ibm.webp"),
+      imageAlt: "Malware Detection Research",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Paper",
+          url: "https://www.researchgate.net/publication/385550437_Detection_of_Malware_Utilizing_Neural_Networks_and_Machine_Learning_Methods"
+        }
+      ]
+    },
+    {
+      title: "Anomaly Detection in Fraudulent Transaction Using Neural Networks",
+      subtitle:
+        "Presented my research paper at ICCCSTD Conference (2023) on Fraud Detection using Neural Networks and Machine Learning Techniques.",
+      image: require("./assets/images/springer.webp"),
+      imageAlt: "Fraud Detection Research",
+      footerLink: [
+        {
+          name: "View Acceptance Letter",
+          url: "https://drive.google.com/file/d/1YZTvU5bPzOqqmxNPo50cOZe2pSZtOTSa/view"
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+*/
 
-// Blogs Section
-
-const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+// Temporary achievementSection with display set to false
+const achievementSection = {
+  display: false // Hidden for now
 };
 
-// Talks Sections
+// Blogs Section - Removed
 
-const talkSection = {
-  title: "TALKS",
+// Publications Section
+
+const publicationsSection = {
+  title: "Publications",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "Research papers and publications in the field of machine learning and data science 📚"
   ),
 
-  talks: [
+  publications: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Malware Detection Using Neural Networks and Machine Learning Techniques",
+      subtitle: "International IEEE Conference on Computing, Communication, and Networking Technologies",
+      status: "Accepted",
+      year: "2023",
+      description: "Research paper on developing neural network-based approaches for detecting malware in computer systems using machine learning techniques.",
+      footerLink: [
+        {
+          name: "View Paper",
+          url: "https://github.com/sans1503"
+        }
+      ]
+    },
+    {
+      title: "Anomaly Detection in Fraudulent Transaction Using Neural Networks",
+      subtitle: "ICCCSTD Conference",
+      status: "Accepted", 
+      year: "2023",
+      description: "Research on implementing neural network models for detecting fraudulent transactions and anomalies in financial data.",
+      footerLink: [
+        {
+          name: "View Paper",
+          url: "https://github.com/sans1503"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
-// Podcast Section
+// Talks Section - Removed
 
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+// Podcast Section - Removed
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
+  subtitle: "View and download my latest resume to learn more about my experience and skills",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
@@ -371,16 +507,15 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Discuss an aerospace project or just want to say hi? My Inbox is open for all.",
+  email_address: "sanskritiaarvind15@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -391,15 +526,14 @@ export {
   socialMediaLinks,
   splashScreen,
   skillsSection,
+  interactiveSkillsSection,
   educationInfo,
   techStack,
   workExperiences,
   openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
+  publicationsSection,
   contactInfo,
   twitterDetails,
   isHireable,
