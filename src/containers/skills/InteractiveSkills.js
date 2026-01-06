@@ -12,6 +12,7 @@ function getIconForTab(tabId) {
     "Systems Integration": "⚙️",
     "Standards & Quality": "✅",
     "Programming & Tools": "💻",
+    "Manufacturing & Prototyping": "🏭",
     "Data Analysis": "📊",
     "BI & Visualization": "📈",
     "Statistical Methods": "📉",

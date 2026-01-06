@@ -127,6 +127,16 @@ const interactiveSkillsSection = {
           ]
         },
         {
+          title: "Simulation Software",
+          skills: [
+            "ANSYS (FEA, CFD)",
+            "COMSOL Multiphysics",
+            "Abaqus",
+            "SolidWorks Simulation",
+            "MATLAB/Simulink"
+          ]
+        },
+        {
           title: "Design Standards",
           skills: [
             "GD&T (Geometric Dimensioning & Tolerancing)",
@@ -142,13 +152,24 @@ const interactiveSkillsSection = {
       id: "Structural Analysis",
       sections: [
         {
+          title: "Analysis Types",
+          skills: [
+            "Stress Analysis",
+            "Thermal Analysis",
+            "Modal Analysis",
+            "Kinematics & Dynamics Simulation",
+            "Fatigue Analysis",
+            "Topology Optimization"
+          ]
+        },
+        {
           title: "FEA & Simulation",
           skills: [
             "ANSYS (Mechanical, Structural)",
             "FEA (Finite Element Analysis)",
-            "Stress Analysis",
             "Structural Optimization",
-            "Modal Analysis"
+            "Material Selection",
+            "Failure Analysis"
           ]
         },
         {
@@ -157,8 +178,7 @@ const interactiveSkillsSection = {
             "Fastener Design",
             "Bearing Loads",
             "Composites",
-            "Material Selection",
-            "Failure Analysis"
+            "Multi-disciplinary Integration"
           ]
         }
       ]
@@ -166,6 +186,25 @@ const interactiveSkillsSection = {
     {
       id: "Systems Integration",
       sections: [
+        {
+          title: "PLC & Automation",
+          skills: [
+            "PLC Programming (Siemens, Allen-Bradley, Mitsubishi)",
+            "SCADA Systems",
+            "HMI Design",
+            "Sensors & Actuators",
+            "Motor Control (Servo, Stepper)"
+          ]
+        },
+        {
+          title: "Industrial Systems",
+          skills: [
+            "Pneumatics & Hydraulics",
+            "Industrial Automation",
+            "IoT Integration",
+            "Communication Protocols (Modbus, CAN, EtherCAT)"
+          ]
+        },
         {
           title: "Aerospace Systems",
           skills: [
@@ -179,7 +218,6 @@ const interactiveSkillsSection = {
         {
           title: "Integration & Testing",
           skills: [
-            "Multi-disciplinary Integration",
             "System Validation",
             "Test Planning",
             "Troubleshooting",
@@ -194,8 +232,10 @@ const interactiveSkillsSection = {
         {
           title: "Quality Systems",
           skills: [
-            "ISO 9001",
+            "ISO 9001 (Quality Management)",
             "AS9100D",
+            "Six Sigma",
+            "Lean Manufacturing",
             "Quality Assurance",
             "Process Documentation",
             "Continuous Improvement"
@@ -204,11 +244,20 @@ const interactiveSkillsSection = {
         {
           title: "Engineering Standards",
           skills: [
-            "ASME Y14.5",
+            "ASME Y14.5 (GD&T)",
             "ASME B31.1",
             "ASTM Standards",
+            "ISO/IEC Standards",
             "Aerospace Standards",
             "Compliance & Certification"
+          ]
+        },
+        {
+          title: "Design Methods",
+          skills: [
+            "DFMEA/PFMEA",
+            "Design for Manufacturing (DFM)",
+            "Design for Assembly (DFA)"
           ]
         }
       ]
@@ -219,11 +268,23 @@ const interactiveSkillsSection = {
         {
           title: "Programming Languages",
           skills: [
-            "Python (NumPy, Pandas)",
-            "MATLAB (Simulink)",
-            "Arduino",
-            "Scripting & Automation",
-            "Data Analysis"
+            "Python (for automation, data analysis)",
+            "MATLAB",
+            "C/C++ (embedded systems)",
+            "Arduino/Raspberry Pi",
+            "ROS (Robot Operating System)",
+            "LabVIEW",
+            "G-code (CNC programming)",
+            "Ladder Logic"
+          ]
+        },
+        {
+          title: "Development Tools",
+          skills: [
+            "Git/Version Control",
+            "Project Management (MS Project, Jira)",
+            "Data Acquisition Systems",
+            "Oscilloscopes & Multimeters"
           ]
         },
         {
@@ -234,6 +295,29 @@ const interactiveSkillsSection = {
             "Data Processing",
             "Control Systems",
             "Embedded Systems"
+          ]
+        }
+      ]
+    },
+    {
+      id: "Manufacturing & Prototyping",
+      sections: [
+        {
+          title: "Manufacturing Processes",
+          skills: [
+            "CNC Machining",
+            "3D Printing/Additive Manufacturing",
+            "Sheet Metal Fabrication",
+            "Injection Molding",
+            "Welding",
+            "Rapid Prototyping"
+          ]
+        },
+        {
+          title: "Tools & Equipment",
+          skills: [
+            "Machine Shop Tools",
+            "PCB Design (Altium, Eagle, KiCAD)"
           ]
         }
       ]
